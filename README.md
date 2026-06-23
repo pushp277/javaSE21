@@ -54,3 +54,5 @@ called member of the class.
 ### Order of Initialization
 - Field and initializer block are run in the order they appear in the code
 - The constructor runs after all fields and instance initializer block have run.
+
+## Chapter2
