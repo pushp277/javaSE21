@@ -56,3 +56,11 @@ called member of the class.
 - The constructor runs after all fields and instance initializer block have run.
 
 ## Chapter2
+
+
+## Chapter 7 - Beyond Classes
+- interface -> Interface describes actions an Object implements the interface can perform.
+- abstract class -> A class which can be instantiated. It acts as a base class to describe common behavior it's sub-class can perform
+- record -> It's a special class which represents immutable data
+- enum -> It's a special kind of class whose instances are known at compile-time.
+- sealed class -> A class or interface which can be extended or implemented by those class and interfaces permitted to do so.
