@@ -84,7 +84,7 @@ called member of the class.
   - [BiConsumer<T,U> -> void accept(T, U);](lamda&functionalInterface/BiConsumerDemo.java)
   - [Predicate<T> -> boolean test(T);](lamda&functionalInterface/PredicateDemo.java)
   - [BiPredicate<T,U> -> boolean test(T,U);](lamda&functionalInterface/BiPredicateDemo.java)
-  - Function<T,R> -> R apply(T);
-  - BiFunction<T,U,R> -> R apply(T, U);
+  - [Function<T,R> -> R apply(T);](lamda&functionalInterface/FunctionDemo.java)
+  - [BiFunction<T,U,R> -> R apply(T, U);](lamda&functionalInterface/BiFunctionDemo.java)
   - UnaryOperator<T> -> T apply(T)
   - BinaryOperator<T> -> T apply(T,T);
