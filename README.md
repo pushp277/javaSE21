@@ -64,3 +64,27 @@ called member of the class.
 - record -> It's a special class which represents immutable data
 - enum -> It's a special kind of class whose instances are known at compile-time.
 - sealed class -> A class or interface which can be extended or implemented by those class and interfaces permitted to do so.
+
+## Chapter 8 - Lambda and Functional Interface
+- Functional Interface -> Interfaces having exactly one abstract method.
+  - remember it excludes method which belongs to Object class. 
+- Lambda 
+  - i.e. Functional exp = a -> Math.round(a);
+- Method Reference
+  - Functional exp = Math::round;
+  - It can be classified as
+    - static method -> uses static methods
+    - instance method on particular object
+    - instance method on a parameter
+    - Constructor 
+
+- Built-in functional Interfaces
+  - [Supplier<T> -> T get();](lamda&functionalInterface/SupplierDemo.java)
+  - [Consumer<T> -> void accept(T);]()
+  - BiConsumer<T,U> -> void accept(T, U);
+  - Predicate<T> -> boolean test(T);
+  - BiPredicate<T,U> -> boolean test(T,U);
+  - Function<T,R> -> R apply(T);
+  - BiFunction<T,U,R> -> R apply(T, U);
+  - UnaryOperator<T> -> T apply(T)
+  - BinaryOperator<T> -> T apply(T,T);
