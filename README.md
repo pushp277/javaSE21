@@ -80,8 +80,8 @@ called member of the class.
 
 - Built-in functional Interfaces
   - [Supplier<T> -> T get();](lamda&functionalInterface/SupplierDemo.java)
-  - [Consumer<T> -> void accept(T);]()
-  - BiConsumer<T,U> -> void accept(T, U);
+  - [Consumer<T> -> void accept(T);](lamda&functionalInterface/ConsumerDemo.java)
+  - [BiConsumer<T,U> -> void accept(T, U);](lamda&functionalInterface/BiConsumerDemo.java)
   - Predicate<T> -> boolean test(T);
   - BiPredicate<T,U> -> boolean test(T,U);
   - Function<T,R> -> R apply(T);
