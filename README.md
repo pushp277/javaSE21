@@ -68,7 +68,7 @@ called member of the class.
 ## Chapter 8 - Lambda and Functional Interface
 - Functional Interface -> Interfaces having exactly one abstract method.
   - remember it excludes method which belongs to Object class. 
-- Lambda 
+- Lambda -> It's an anonymous function which provides implementation of functional interfaces.  
   - i.e. Functional exp = a -> Math.round(a);
 - Method Reference
   - Functional exp = Math::round;
@@ -88,3 +88,6 @@ called member of the class.
   - [BiFunction<T,U,R> -> R apply(T, U);](lamda&functionalInterface/BiFunctionDemo.java)
   - [UnaryOperator<T> -> T apply(T);](lamda&functionalInterface/UnaryOperatorDemo.java)
   - [BinaryOperator<T> -> T apply(T,T);](lamda&functionalInterface/BinaryOperatorDemo.java)
+
+## Chapter 9 - Collections and Generics
+- 
