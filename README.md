@@ -90,4 +90,4 @@ called member of the class.
   - [BinaryOperator<T> -> T apply(T,T);](lamda&functionalInterface/BinaryOperatorDemo.java)
 
 ## Chapter 9 - Collections and Generics
-- 
+- Comparable vs Comparator
