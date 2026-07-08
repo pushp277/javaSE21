@@ -91,3 +91,16 @@ called member of the class.
 
 ## Chapter 9 - Collections and Generics
 - Comparable vs Comparator
+
+## Chapter 10 - Optional and Stream
+- Optional Method signatures
+  - public static  Optional<T> empty();
+  - public static  Optional<T> of(T);
+  - public void ifPresent(Consumer<T> c);
+  - public boolean isPresent();
+  - pubic boolean isEmpty();
+  - public T get();
+  - public T orElse(T other);
+  - public T orElseGet(Supplier<T> sup);
+  - public T orElseThrow(); // Throw NoSuchElementException
+  - public T orElseThrow(Supplier<T> sub);
