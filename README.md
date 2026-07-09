@@ -104,3 +104,20 @@ called member of the class.
   - public T orElseGet(Supplier<T> sup);
   - public T orElseThrow(); // Throw NoSuchElementException
   - public T orElseThrow(Supplier<T> sub);
+  - [Demo](/optionalAndStream/optional/Main.java)
+- Stream Methods
+  - Stream is the sequence of data
+  - Finite intermediate Operations
+    - empty()
+    - of()
+    - list.parallelStream()
+  - Infinite intermediate operation
+    - generate()
+    - iterator()
+  - Terminal Operations
+    - void forEach() -> does not Terminate
+    - long count() -> does not Terminate
+    - Optional<T> findAny(), Optional<T> findFirst() -> Terminate
+    - Optional<T> allMatch(), Optional<T> anyMatch(), Optional<T> noneMatch() -> Sometime terminates
+    - reduce() -> doesn't Terminate
+    - collect() -> doesn't Terminate
