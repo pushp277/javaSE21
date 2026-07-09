@@ -121,4 +121,8 @@ called member of the class.
     - boolean allMatch(Predicate<? super T>), boolean anyMatch(Predicate<? super T>), boolean noneMatch(Predicate<? super T>) -> Sometime terminates
     - reduce() -> doesn't Terminate
     - collect() -> doesn't Terminate
-  - 
+  - Reducing
+    - reduce has different overloaded methods 
+    - T reduce(T init, BinaryOperator<? super T> accumulator);
+    - Optional<T> reduce(BinaryOperation<? super T> accumulator);
+    - U reduce(U init, BiFunction<U, ? super T, U> accumulator, BinaryOperator<U> combiner);
