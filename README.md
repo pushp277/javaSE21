@@ -126,3 +126,6 @@ called member of the class.
     - T reduce(T init, BinaryOperator<? super T> accumulator);
     - Optional<T> reduce(BinaryOperation<? super T> accumulator);
     - U reduce(U init, BiFunction<U, ? super T, U> accumulator, BinaryOperator<U> combiner);
+  - Collecting -> It's special type of reduction called mutable reduction
+    - R collect(Supplier<R> supplier, BiConsumer<R,? super T> accumulator, BiConsumer<R,R> combiner);
+    - R collect(Collector<? super T, A , R> collector);
