@@ -118,6 +118,7 @@ called member of the class.
     - void forEach() -> does not Terminate
     - long count() -> does not Terminate
     - Optional<T> findAny(), Optional<T> findFirst() -> Terminate
-    - Optional<T> allMatch(), Optional<T> anyMatch(), Optional<T> noneMatch() -> Sometime terminates
+    - boolean allMatch(Predicate<? super T>), boolean anyMatch(Predicate<? super T>), boolean noneMatch(Predicate<? super T>) -> Sometime terminates
     - reduce() -> doesn't Terminate
     - collect() -> doesn't Terminate
+  - 
