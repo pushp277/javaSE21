@@ -129,3 +129,11 @@ called member of the class.
   - Collecting -> It's special type of reduction called mutable reduction
     - R collect(Supplier<R> supplier, BiConsumer<R,? super T> accumulator, BiConsumer<R,R> combiner);
     - R collect(Collector<? super T, A , R> collector);
+  - Intermediate Operations
+    - Stream<T> skip(long);
+    - Stream<T> limit(long);
+    - Stream<T> filter(Predicate<? super T>);
+    - Stream<T> sorted() or Stream<T> sorted(Comparator<? super T>);
+    - Stream<R> map(Function<? super T, ? extends R>);
+    - Stream<R> flatMap(Function<? super T, ? super Stream<? extends R>>);
+    - Stream<T> peek(Supplier<? super T>);
