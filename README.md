@@ -137,3 +137,12 @@ called member of the class.
     - Stream<R> map(Function<? super T, ? extends R>);
     - Stream<R> flatMap(Function<? super T, ? super Stream<? extends R>>);
     - Stream<T> peek(Supplier<? super T>);
+
+## Chapter 11: Concurrency
+- Definitions
+  - Thread: Single Unit of Execution which can be scheduled by Operating System
+  - Process: A collection of threads which shares same shared Environment and can communicate with each other.
+  - Shared Environment: It's a common memory space.
+  - In Java we can divide threads in two catagories:- System thread, and Application Thread
+  - System thread is instantiated by JVM which runs in the background like garbage thread.
+  - Application/User Thread is created by User as per java 21 in can be classified as Platform thread
